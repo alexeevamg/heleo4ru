@@ -8,7 +8,7 @@ const options = {
   }
 };
 
-fetch('https://cors-anywhere.herokuapp.com/https://api.webflow.com/collections/646e6389b4343c8e941797be/items', options)
+fetch('https://api.webflow.com/collections/646e6389b4343c8e941797be/items', options)
   .then(response => response.json())
   .then(response => {
     ymaps.ready(function () {
