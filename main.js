@@ -1,5 +1,4 @@
 function yandexMap() {
-
 const options = {
   method: 'GET',
   headers: {
@@ -48,12 +47,8 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.webflow.com/collections/6
   })
   .catch(err => console.error(err));
 
-
-
-
 }
 
 function launch() {
-
 	yandexMap();
 }
