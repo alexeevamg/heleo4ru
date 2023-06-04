@@ -53,7 +53,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.webflow.com/collections/6
 
 }
 
-function launch {
+function launch() {
 
 	yandexMap();
 }
